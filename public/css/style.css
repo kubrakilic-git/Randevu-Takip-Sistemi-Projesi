@@ -1,0 +1,159 @@
+
+ul,li{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.select-time-ul .select-time{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+li.errors{
+    background:black;
+    padding: 5px;
+    display: block;
+    color: orangered;
+    border: 1px solid orangered;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+
+.complete-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.complete-form i{
+    font-size: 15em;
+    color: green;
+}
+
+.complete-form span{
+    font-size: 20px;
+}
+
+
+.appointment-card{
+    background-color: #9f9f9f;
+    border: 1px solid #ff45003b;
+    box-shadow: 3px 3px orangered;
+    padding: 10px;
+}
+.appointment-card .appointment-number{
+    text-align: center;
+    font-size: 17px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 10px;
+}
+.appointment-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab-pane{
+    padding: 30px 0;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #9f9f9f;
+    border-color: orangered orangered white;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: orangered orangered #dee2e6;
+    background-color: #9f9f9f;
+    color: #fff;
+}
+
+.card-style{
+    margin-bottom:30px;
+}
+.new-appointment{
+    position: absolute;
+    /* top: 0; */
+    right: 0px;
+    bottom: 0;
+    background-color: orangered;
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+}
+.new-appointment.waiting-new{
+    position: absolute;
+    /* top: 0; */
+    right: 0px;
+    bottom: 0;
+    background-color: green;
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+}
+
+.new-appointment.cancel-new{
+    position: absolute;
+    /* top: 0; */
+    right: 0px;
+    bottom: 0;
+    background-color: darkred;
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+}
+
+.appintment-buttons button{
+    background-color: #fff;
+    box-shadow: 1px 1px 0 0px #fff;
+    border-color: #fff;
+    border-radius: 5px;
+    color: orangered;
+}
+
+.appintment-buttons button:hover{
+    background-color: orangered;
+    box-shadow: 1px 1px 0 0px orangered;
+    border-color: orangered;
+    border-radius: 5px;
+    color: #fff;
+}
+.appintment-buttons{
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: -9px;
+    left: 0px;
+    margin-left: -10px;
+}
+
+#form{
+    background-color: #5e5e5e;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #830400;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #830400 !important;
+    border-color: #830400 !important;
+}
+label{
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.btn-success:hover {
+    color: #830400 !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+.btn-success:focus, .btn-success.focus {
+    color: #fff;
+    background-color: #2fa360;
+    border-color: #2d995b;
+    box-shadow: 0 0 0 0.2rem rgb(94 94 94) !important;
+}
